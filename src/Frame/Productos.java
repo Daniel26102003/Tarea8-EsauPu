@@ -28,6 +28,7 @@ public class Productos extends javax.swing.JFrame {
         txCodigo.setForeground(Color.WHITE);
         txEstado.setForeground(Color.WHITE);
         mostrarDatosEnTabla();
+        
     }
     public void mostrarDatosEnTabla() {
     Conectar cn = new Conectar();
